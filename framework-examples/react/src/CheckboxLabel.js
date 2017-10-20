@@ -14,14 +14,23 @@
  * limitations under the License.
  */
 
-/* eslint-disable */
+import React from "react";
+import PropTypes from "prop-types";
 
-import React from 'react';
-
-export default function CheckboxLabel(props) {
-  const {id, children} = props;
-  const controlId = props['for'];
+const CheckboxLabel = props => {
+  const { id, children } = props;
+  const controlId = props["for"];
   return (
-    <label className="mdc-checkbox-label" id={id} htmlFor={controlId}>{children}</label>
+    <label id={id} htmlFor={controlId}>
+      {children}
+    </label>
   );
-}
+};
+
+CheckboxLabel.propTypes = {
+  id: PropTypes.string,
+  controlId: PropTypes.string,
+  children: PropTypes.node
+};
+
+export default CheckboxLabel;

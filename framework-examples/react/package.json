@@ -14,12 +14,15 @@
     "react-scripts": "0.9.5"
   },
   "dependencies": {
-    "@material/checkbox": "^0.2.2",
-    "@material/form-field": "^0.2.1",
-    "@material/ripple": "^0.4.0",
+    "@material/checkbox": "^0.23.0",
+    "@material/dialog": "^0.23.0",
+    "@material/form-field": "^0.23.0",
+    "@material/ripple": "^0.23.0",
     "classnames": "^2.2.5",
-    "immutable": "^3.8.1",
-    "react": "^15.4.1",
-    "react-dom": "^15.4.1"
+    "focus-trap": "^2.3.0",
+    "immutable": "^3.8.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   }
 }
